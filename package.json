@@ -1,0 +1,21 @@
+{
+  "name": "@stratedge/audit-check",
+  "version": "2.4.0",
+  "description": "Zero-dependency AI agent & payment-control compliance scanner aligned to Federal Reserve OP-1880, FDIC ZRIN 3064-ZA58, SEC S7-2026-35, and x402/MCP fail-closed execution standards.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "bin": {
+    "stratedge-audit-check": "./cli.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StratEdge-Workflow-Systems/audit-check.git"
+  },
+  "homepage": "https://www.stratedgeworkflow.com/scan",
+  "keywords": ["mcp", "x402", "ai-agents", "compliance", "fintech", "guardroute", "proofaudit", "remitbot", "cryptops", "audit"],
+  "author": "StratEdge Workflow Systems LLC (https://www.stratedgeworkflow.com)",
+  "license": "MIT"
+}
